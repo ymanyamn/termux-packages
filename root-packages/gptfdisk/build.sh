@@ -15,3 +15,4 @@ termux_step_make_install() {
 	install -t "$TERMUX_PREFIX"/bin/ {,c,s}gdisk fixparts
 	install -m600 -t "$TERMUX_PREFIX"/share/man/man8/ {{,c,s}gdisk,fixparts}.8
 }
+source "$TERMUX_SCRIPTDIR/scripts/build/setup/termux_setup_ghc.sh"
